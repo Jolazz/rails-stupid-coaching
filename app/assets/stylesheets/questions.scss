@@ -1,0 +1,56 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap');
+
+body {
+  padding-left: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-weight: lighter;
+}
+.discuss {
+  border-left: 8px solid rgb(212, 211, 211);
+  padding: 0.5px 20px;
+  margin-bottom: 20px;
+  p:nth-child(2) {
+    font-style: italic;
+  }
+}
+#coach {
+  background-color: rgb(250, 244, 212);
+  margin-bottom: 100px;
+  p:nth-child(1) {
+    font-weight: bold;
+  }
+}
+a {
+  text-decoration: none;
+}
+form {
+  display: flex;
+}
+.btn-flat {
+  flex-basis: 200px;
+  color: white;
+  font-weight: bold;
+  padding: 7px 19px;
+  border-radius: 0px 4px 4px 0px;
+  background: rgb(0, 89, 255);
+  transition: background 0.3s ease;
+  border: none;
+}
+
+.btn-flat:hover {
+  background: rgb(59, 128, 255);
+  color: white;
+}
+
+input[type="text" i] {
+  flex: auto;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid rgb(190, 190, 190);
+  padding: 6px 18px;
+  width: 85%;
+}
